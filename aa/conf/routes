@@ -1,0 +1,6 @@
+module:testrunner
+
+GET     /users                                      UserController.GetAllUser
+POST     /users                                      UserController.InsertNewUser
+PUT     /users                                      UserController.UpdateUser
+DELETE     /users/{userid}                                      UserController.DeleteUser
